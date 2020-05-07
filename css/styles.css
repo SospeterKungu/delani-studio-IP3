@@ -1,3 +1,6 @@
+.body {
+  height: 100%;
+}
 .toprow {
   background-image: url("h_img.jpg");
   background-size: cover;
@@ -24,4 +27,13 @@
   text-align: center;
   font-size: 13px;
   color: white;
+}
+.servicesRow {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.portfolioImages {
+  height: 10%;
+  width: 10%;
 }
