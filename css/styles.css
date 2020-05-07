@@ -1,0 +1,27 @@
+.toprow {
+  background-image: url("h_img.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 50vh;
+  width: 50vw;
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+}
+.aboutUs {
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 30px;
+}
+.midrow {
+  background-image: url("s_image.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 30vh;
+  width: 50vw;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
