@@ -33,7 +33,24 @@
   padding-left: 30px;
   padding-right: 30px;
 }
+.portfolio {
+  text-align: center;
+}
 .portfolioImages {
-  height: 10%;
-  width: 10%;
+  align-content: center;
+}
+.contactUsRow {
+  background-image: url("c_image.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 50vh;
+  width: 50vw;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+.socialRow {
+  padding: 20px;
+  text-align: center;
 }
