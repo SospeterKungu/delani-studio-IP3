@@ -54,3 +54,7 @@
   padding: 20px;
   text-align: center;
 }
+.textarea {
+  opacity: 1;
+  border-color: white;
+}

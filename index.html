@@ -51,7 +51,7 @@
       <div class="col-md-10 offset-md-1" style="margin-top: 0px">
         <h2>WHAT WE DO</h2>
           <div class="servicesColumns">
-            <img src="images/services_icons/design_icon.png" width="366" height="300" alt="">
+            <img src="images/services_icons/design_icon.png" alt="">
             <img src="images/services_icons/dev_icon.png" alt="">.............
             <img src="images/services_icons/product_icon.png" alt="">
           </div>
@@ -75,9 +75,21 @@
       <div class="col-md-10 offset-md-1" style="margin-top: 0px">
         <div class="contactUsRow">
           <h1>CONTACT US</h1>
-            <div class="<form class="<input type="NAME" name="" value="">" action="index.html" method="post">
-
-            </form>">
+          <div id="blanks">
+          <div class="col-md-6 offset-md-3">
+            <form>
+              <div class="form-group">
+                 <input id="customerName" class="form-control" type="text" placeholder="Name...">
+               </div>
+               <div class="form-group">
+                  <input id="emailAddress" class="form-control" type="text" placeholder="Email...">
+               </div>
+               <div class="form-group" height>
+                  <textarea name="message" rows="10" cols="30" placeholder="Your message here..."></textarea>
+               </div>
+               <button type="submit" class="btn btn-primary" id="btn-submit-message" onClick="submitYourMessage();">Submit your message</button>
+             </form>
+          </div>
           </div>
         </div>
       </div>
@@ -95,6 +107,7 @@
             <img src="images/social_icons/behance.png" alt="">
             <img src="images/social_icons/pinterest.png" alt="">
             <img src="images/social_icons/flickr.png" alt="">
+            <p></p>
             <p>DELANI STUDIO<br>
             2019</p>
           </div>
