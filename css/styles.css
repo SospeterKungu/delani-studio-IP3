@@ -55,6 +55,11 @@
   text-align: center;
 }
 .textarea {
-  opacity: 1;
-  border-color: white;
+  background-color: none;
+}
+.sub-cat {
+  float: center;
+  padding: 1px;
+  margin-right: 0px;
+  display: inline-block;
 }
