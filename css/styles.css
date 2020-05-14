@@ -33,7 +33,7 @@
   padding-left: 30px;
   padding-right: 30px;
 }
-.portfolio {
+.portfolioRow {
   text-align: center;
 }
 .portfolioImages {
@@ -56,10 +56,9 @@
 }
 .textarea {
   background-color: none;
+  text-align: right;
 }
-.sub-cat {
-  float: center;
-  padding: 1px;
-  margin-right: 0px;
-  display: inline-block;
+.whatWeDoRow {
+  padding-top: 50px;
+  text-align: center;
 }
