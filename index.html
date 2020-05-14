@@ -7,6 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="js/jquery-3.5.1.slim.js"></script>
     <script src="js/scripts.js" charset="utf-8"></script>
     <title>Delani Studio</title>
   </head>
@@ -47,30 +48,82 @@
         </div>
       </div>
     </div>
-    <div class="servicesRow">
-      <div class="col-md-10 offset-md-1" style="margin-top: 0px">
-        <h2>WHAT WE DO</h2>
-          <div class="servicesColumns">
-            <img src="images/services_icons/design_icon.png" alt="">
-            <img src="images/services_icons/dev_icon.png" alt="">.............
-            <img src="images/services_icons/product_icon.png" alt="">
+    <div class="container">
+      <div class="whatWeDoRow">
+        <div class="col-md-10 offset-md-1">
+          <div class="we-do">
+            <h3>WHAT WE DO</h3>
+              <div class="container">
+                <div class="row whatwedo" id="we">
+                  <div class="com-md-3">
+                    <div class="imagetoggle0">
+                      <img src="images/services_icons/design_icon.png" alt="">
+                      <p class="font-weight:bold">DESIGN</p>
+                    </div>
+                    <div id="dotext1" class="imagetoggle1">
+                      <p>DESIGN</p>
+                      <p>Our design practice offers a full range of services<br>including brand strategy, interacton and visual design
+                      <br> and user experience testing.<br>Throughout your project, our designers create and
+                      <br>implement visual design and workflows, solicit user
+                      <br>feedback and work with you to make sure what gets built<br>is what is needed.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="imagetoggle2">
+                      <img src="images/services_icons/dev_icon.png" alt="">
+                      <p class="font-weight:bold">DEVELOPMENT</p>
+                    </div>
+                    <div id="dotext2" class="imagetoggle3">
+                      <p>DEVELOPMENT</p>
+                      <p>All engineers are fluent in the latest enterprise,
+                      <br>mobile and web development technologies. They collaborate with your team to write,
+                      <br>and improve code on daily basis using proven practice such as
+                      <br>test driven development and pair programming.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="imagetoggle4">
+                      <img src="images/services_icons/product_icon.png" alt="">
+                      <p class="font-weight:bold">PRODUCT MANAGEMENT</p>
+                    </div>
+                    <div id="dotext3" class="imagetoggle5">
+                      <p>PRODUCT MANAGEMENT</p>
+                      <p>Planning and development is interactive. Because we are
+                      <br>constantly coding and testing, the products we build are <br> always ready to go live.
+                      <br>The interactive process allows for the changes as business <br>requiremens evolve.</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
     </div>
     <br>
-    <div class="portfolio">
-      <h2>PORTFOLIO</h2>
+    <br>
+    <div class="servicesRow">
       <div class="col-md-10 offset-md-1" style="margin-top: 0px">
-        <div id="final_space">
-          <div class="sub-cat" id="sub_cat_1"><img src="images/portfolio/work1.jpg" width="50%"></div>
-          <div class="sub-cat" id="sub_cat_2"><img src="images/portfolio/work2.jpg" width="50%"></div>
-          <div class="sub-cat" id="sub_cat_3"><img src="images/portfolio/work3.jpg" width="50%"></div>
-          <div class="sub-cat" id="sub_cat_1"><img src="images/portfolio/work4.jpg" width="50%"></div>
-        </div>
+        <h2>PORTFOLIO</h2>
+          <div class="servicesColumns">
+            <img src="images/portfolio/work4.jpg" width=22%>
+            <img src="images/portfolio/work3.jpg" width=22%>
+            <img src="images/portfolio/work2.jpg" width=22%>
+            <img src="images/portfolio/work1.jpg" width=22%>
+          </div>
       </div>
-    </div><br>
+    </div>
+    <div class="servicesRow">
+      <div class="col-md-10 offset-md-1" style="margin-top: 5px" style="margin-bottom: 5px">
+          <div class="servicesColumns">
+            <img src="images/portfolio/work5.jpg" width=22%>
+            <img src="images/portfolio/work6.jpg" width=22%>
+            <img src="images/portfolio/work7.jpg" width=22%>
+            <img src="images/portfolio/work8.jpg" width=22%>
+          </div>
+      </div>
+    </div>
     <div class="row">
-      <div class="col-md-10 offset-md-1" style="margin-top: 0px">
+      <div class="col-md-10 offset-md-1" style="margin-top: 50px">
         <div class="contactUsRow">
           <h1>CONTACT US</h1>
           <div id="blanks">
