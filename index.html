@@ -51,11 +51,11 @@
     <div class="container">
       <div class="whatWeDoRow">
         <div class="col-md-10 offset-md-1">
-          <div class="we-do">
+          <div class="weDo">
             <h3>WHAT WE DO</h3>
-              <div class="container">
+              <div class="col-md-10 offset-md-1">
                 <div class="row whatwedo" id="we">
-                  <div class="com-md-3">
+                  <div class="col-md-4">
                     <div class="imagetoggle0">
                       <img src="images/services_icons/design_icon.png" alt="">
                       <p class="font-weight:bold">DESIGN</p>
@@ -68,7 +68,7 @@
                       <br>feedback and work with you to make sure what gets built<br>is what is needed.</p>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <div class="imagetoggle2">
                       <img src="images/services_icons/dev_icon.png" alt="">
                       <p class="font-weight:bold">DEVELOPMENT</p>
@@ -81,7 +81,7 @@
                       <br>test driven development and pair programming.</p>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <div class="imagetoggle4">
                       <img src="images/services_icons/product_icon.png" alt="">
                       <p class="font-weight:bold">PRODUCT MANAGEMENT</p>
@@ -142,9 +142,15 @@
                 </div>
               </div>
               <div class="col-md-12">
-              <div class="form-group">
-                <textarea name="message" rows="10" cols="80" placeholder="Your message here..." align="right"></textarea>
-               </div>
+                <div class="row">
+                  <div class="col-md-1 right-side-container">
+                  </div>
+                  <div class="col-md-2 left-side-container">
+                    <div class="form-group">
+                      <textarea name="message" rows="10" cols="80" placeholder="Your message here..." align="right"></textarea>
+                    </div>
+                  </div>
+                </div>
                <button type="submit" class="btn btn-primary" id="btn-submit-message" onClick="submitYourMessage();">Submit your message</button>
               </div>
              </form>
