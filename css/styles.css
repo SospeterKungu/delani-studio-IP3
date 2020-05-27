@@ -72,11 +72,22 @@ p2 {
   font-size: 12px;
 }
 
-.textarea {
-  background-color: none;
-  text-align: right;
+input {
+background-color: rgba(0,0,0,0.1);
 }
+
+textarea {
+  border-color: white;
+  background: transparent;
+  color: white;
+}
+
 .whatWeDoRow {
-  padding-top: 20px;
+  padding-top: 50px;
   text-align: center;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
 }
