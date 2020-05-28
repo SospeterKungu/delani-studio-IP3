@@ -69,10 +69,6 @@ p2 {
   font-size: 12px;
 }
 
-input {
-background-color: rgba(0,0,0,0.1);
-}
-
 textarea {
   border-color: white;
   background: transparent;
@@ -88,12 +84,17 @@ textarea {
   text-align: center;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: black;
-  opacity: 1; /* Firefox */
+.form-control {
+    background: transparent;
+    border-radius: 0px;
 }
 
-.imagetoggle10 {
+.dotext1 {
   background-image: url("portfolio/work1.jpg");
   color: white;
+}
+
+::placeholder{
+  color: white;
+  size: 25px;
 }
