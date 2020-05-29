@@ -57,9 +57,8 @@ $(document).ready(function(){
      });
    });
 
-
    $(document).ready(function(){
-   $("form").submit(function(){
-   alert("Your message has been received");
-   });
-   });
+    $("form").submit(function(){
+    alert("Hi "+ $("input[name='yourname']").val() + "! Thank you for contacting us. Your message has been received");
+    });
+    });
