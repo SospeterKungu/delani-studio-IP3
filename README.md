@@ -1,22 +1,4 @@
-<<<<<<< HEAD
-# DELANI STUDIO
-
-## PROJECT DESCRIPTION
-Delani Studio is a project which was given as an Individual Project (IP) for week 3 at Moringa school.The project aims at practicing how to fork a project (resources) and developing a similar webpage with all respective aspects as directed and making it responsive to different screen sizes.
-
-### Author
-The system is developed by Sospeter Kung'u an aspriring programmer who has recently joined moringa school in April 2020, with the help from Technical Mentors at the institution.
-
-### Setup Instructions
-The webpage can be accessed by any web browser by users and for the developers who would want to access by following the link to the live gh-pages given below.
-
-### Behavior Driven Development (BDD)
-This is identifying what this program should do before determining how to make it do it. The webpage displays the homepage of Delani Studio which has an about us section, what we do, the portfolio as well as a messaging area where the users can input their name and email address before typing-in their message. Once submitted, an alert is displayed saying your message has been delivered.
-
-### Technologies Used
-This program is created using Atom, Git, Github and is viewable on any browser.
-=======
-# name
+#NAME
 DELANI STUDIO
 
 ## AUTHOR
