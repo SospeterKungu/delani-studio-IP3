@@ -7,6 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script type="js/jquery-3.5.1.slim.js"></script>
     <script src="js/scripts.js" charset="utf-8"></script>
     <title>Delani Studio</title>
@@ -53,19 +54,23 @@
         <div class="col-md-10 offset-md-1">
           <div class="weDo">
             <h3>WHAT WE DO</h3>
-              <div class="col-md-10 offset-md-1">
+              <div class="container">
                 <div class="row whatwedo">
                   <div class="col-md-4">
                     <div class="imagetoggle0">
-                      <img src="images/services_icons/design_icon.png" alt="">
+                      <img src="images/services_icons/design_icon.png">
                       <p class="font-weight:bold">DESIGN</p>
                     </div>
                     <div id="dotext1" class="imagetoggle1">
-                      <p>DESIGN</p>
-                      <p>Our design practice offers a full range of services<br>including brand strategy, interacton and visual design
-                      <br> and user experience testing.<br>Throughout your project, our designers create and
-                      <br>implement visual design and workflows, solicit user
-                      <br>feedback and work with you to make sure what gets built<br>is what is needed.</p>
+                      <h5>DESIGN</h5>
+                      <p2>Our design practice offers a full range of services including brand strategy, interacton and visual design
+                        and user experience testing.
+                      </p2>
+                      <br>
+                      <p2>Throughout your project, our designers create and
+                        implement visual design and workflows, solicit user
+                        feedback and work with you to make sure what gets builtis what is needed.
+                      </p2>
                     </div>
                   </div>
                   <div class="col-md-4">
@@ -74,11 +79,11 @@
                       <p class="font-weight:bold">DEVELOPMENT</p>
                     </div>
                     <div id="dotext2" class="imagetoggle3">
-                      <p>DEVELOPMENT</p>
-                      <p>All engineers are fluent in the latest enterprise,
-                      <br>mobile and web development technologies. They collaborate with your team to write,
-                      <br>and improve code on daily basis using proven practice such as
-                      <br>test driven development and pair programming.</p>
+                      <h5>DEVELOPMENT</h5>
+                      <p2>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p2>
+                      <p2>They collaborate with your team to write, and improve code on daily basis using proven practice such as
+                         test driven development and pair programming.
+                      </p2>
                     </div>
                   </div>
                   <div class="col-md-4">
@@ -87,10 +92,11 @@
                       <p class="font-weight:bold">PRODUCT MANAGEMENT</p>
                     </div>
                     <div id="dotext3" class="imagetoggle5">
-                      <p>PRODUCT MANAGEMENT</p>
-                      <p>Planning and development is interactive. Because we are
-                      <br>constantly coding and testing, the products we build are <br> always ready to go live.
-                      <br>The interactive process allows for the changes as business <br>requiremens evolve.</p>
+                      <h5>PRODUCT MANAGEMENT</h5>
+                      <p2>Planning and development is interactive. Because we are
+                         constantly coding and testing, the products we build are always ready to go live.
+                       </p2>
+                      <p2>The interactive process allows for the changes as business requiremens evolve.</p2>
                     </div>
                   </div>
               </div>
@@ -99,27 +105,101 @@
         </div>
       </div>
     </div>
-    <br>
-    <br>
-    <div class="servicesRow">
-      <div class="col-md-10 offset-md-1" style="margin-top: 0px">
-        <h2>PORTFOLIO</h2>
-          <div class="servicesColumns">
-            <img src="images/portfolio/work4.jpg" width=22%>
-            <img src="images/portfolio/work3.jpg" width=22%>
-            <img src="images/portfolio/work2.jpg" width=22%>
-            <img src="images/portfolio/work1.jpg" width=22%>
+    <div class="container">
+      <div class="portfolioRow">
+        <div class="col-md-10 offset-md-1">
+          <div class="weDo">
+            <h3>PORTFOLIO</h3>
+              <div class="container">
+                <div class="row whatwedo">
+                  <div class="col-md-3">
+                    <div class="imagetoggle10">
+                      <img src="images/portfolio/work4.jpg" width=100%>
+                    </div>
+                    <div id="dotext11" class="imagetoggle11">
+                      <h5>Project 1</h5>
+                      <p2>This is our first project</p2>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="imagetoggle20">
+                      <img src="images/portfolio/work3.jpg" width=100%>
+                    </div>
+                    <div id="dotext21" class="imagetoggle21">
+                      <h5>Project 2</h5>
+                      <p2>This is our second project where we handled Ontario Mighty security</p2>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="imagetoggle30">
+                      <img src="images/portfolio/work2.jpg" width=100%>
+                    </div>
+                    <div id="dotext31" class="imagetoggle31">
+                      <h5>Project 3</h5>
+                      <p2>This is our 3rd project where we did work for Goldwall Properties</p2>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="imagetoggle40">
+                      <img src="images/portfolio/work1.jpg" width=100%>
+                    </div>
+                    <div id="dotext41" class="imagetoggle41">
+                      <h5>Project 4</h5>
+                      <p2>This is our fourth project where we did multi agency website</p2>
+                    </div>
+                  </div>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
     </div>
-    <div class="servicesRow">
-      <div class="col-md-10 offset-md-1" style="margin-top: 5px" style="margin-bottom: 5px">
-          <div class="servicesColumns">
-            <img src="images/portfolio/work5.jpg" width=22%>
-            <img src="images/portfolio/work6.jpg" width=22%>
-            <img src="images/portfolio/work7.jpg" width=22%>
-            <img src="images/portfolio/work8.jpg" width=22%>
+    <div class="container">
+      <div class="portfolioRow">
+        <div class="col-md-10 offset-md-1">
+          <div class="weDo">
+              <div class="container">
+                <div class="row whatwedo">
+                  <div class="col-md-3">
+                    <div class="imagetoggle50">
+                      <img src="images/portfolio/work5.jpg" width=100%>
+                    </div>
+                    <div id="dotext51" class="imagetoggle51">
+                      <h5>Project 5</h5>
+                      <p2>This is our fifth project where we made a blog called "Have a Good Day"</p2>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="imagetoggle60">
+                      <img src="images/portfolio/work6.jpg" width=100%>
+                    </div>
+                    <div id="dotext61" class="imagetoggle61">
+                      <h5>Project 6</h5>
+                      <p2>This is our sixth project where we did an arithmetics system</p2>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="imagetoggle70">
+                      <img src="images/portfolio/work7.jpg" width=100%>
+                    </div>
+                    <div id="dotext71" class="imagetoggle71">
+                      <h5>Project 7</h5>
+                      <p2>This is our seventh project where we did logo mock-up called Burned C</p2>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="imagetoggle80">
+                      <img src="images/portfolio/work8.jpg" width=100%>
+                    </div>
+                    <div id="dotext81" class="imagetoggle81">
+                      <h5>Project 8</h5>
+                      <p2>This is our eight project which did a website for Giraffe Restaurant</p2>
+                    </div>
+                  </div>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -132,12 +212,12 @@
               <div class="row">
                 <div class="col-md-6 right-side-container">
                   <div class="form-group">
-                     <input id="inputtedName" class="form-control" type="text" placeholder="Name...">
+                     <input id="inputtedName" class="form-control" type="text" placeholder="Name..." name="yourname" required>
                   </div>
                 </div>
                 <div class="col-md-6 left-side-container">
                   <div class="form-group">
-                     <input id="emailAddress" class="form-control" type="text" placeholder="Email...">
+                     <input id="emailAddress" class="form-control" type="text" placeholder="Email..." required>
                   </div>
                 </div>
               </div>
