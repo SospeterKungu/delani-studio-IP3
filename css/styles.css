@@ -33,6 +33,7 @@
   padding-left: 30px;
   padding-right: 30px;
 }
+
 .portfolioRow {
   text-align: center;
 }
@@ -54,9 +55,18 @@
   padding: 20px;
   text-align: center;
 }
+.textarea {
+  background-color: none;
+  text-align: right;
+}
 
-input {
-background-color: rgba(0,0,0,0.1);
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p2 {
+  font-size: 12px;
 }
 
 textarea {
@@ -65,12 +75,98 @@ textarea {
   color: white;
 }
 
+.weDo{
+  padding-top: 20px;
+}
+
 .whatWeDoRow {
   padding-top: 50px;
   text-align: center;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: black;
-  opacity: 1; /* Firefox */
+.form-control {
+    background: transparent;
+    border-radius: 0px;
+}
+
+.dotext1 {
+  background-image: url("portfolio/work1.jpg");
+  color: white;
+}
+
+::placeholder{
+  color: white;
+  size: 25px;
+}
+
+.imagetoggle11 {
+  background-image:  url("portfolio/work4.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle21 {
+  background-image:  url("portfolio/work3.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle31 {
+  background-image:  url("portfolio/work2.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle41 {
+  background-image:  url("portfolio/work1.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle51 {
+  background-image:  url("portfolio/work5.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle61 {
+  background-image:  url("portfolio/work6.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle71 {
+  background-image:  url("portfolio/work7.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle81 {
+  background-image:  url("portfolio/work8.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
 }
