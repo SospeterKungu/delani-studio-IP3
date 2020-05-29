@@ -98,3 +98,75 @@ textarea {
   color: white;
   size: 25px;
 }
+
+.imagetoggle11 {
+  background-image:  url("portfolio/work4.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle21 {
+  background-image:  url("portfolio/work3.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle31 {
+  background-image:  url("portfolio/work2.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle41 {
+  background-image:  url("portfolio/work1.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle51 {
+  background-image:  url("portfolio/work5.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle61 {
+  background-image:  url("portfolio/work6.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle71 {
+  background-image:  url("portfolio/work7.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.imagetoggle81 {
+  background-image:  url("portfolio/work8.jpg");
+  background-blend-mode: saturation;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
